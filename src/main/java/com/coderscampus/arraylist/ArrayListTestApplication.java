@@ -9,7 +9,7 @@ public class ArrayListTestApplication {
 		
 		// Chose the max number of items to be added to the list below :
 		
-		Integer myCustomListSize = 60;
+		Integer myCustomListSize = 90;
 		
 		for (Integer i = 1; i <= myCustomListSize; i++) {
 			myCustomList.add(i);
