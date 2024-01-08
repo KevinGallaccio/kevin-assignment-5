@@ -10,7 +10,7 @@ public class CustomArrayList<T> implements CustomList<T> {
 	@Override
 	public boolean add(T item) {
 		if (arraySize == items.length) {
-			Object[] itemsUpdated = Arrays.copyOf(items, getSize() + 10);
+			Object[] itemsUpdated = Arrays.copyOf(items, getSize() * 2);
 			items = itemsUpdated;
 		}
 		items[arraySize] = item;
